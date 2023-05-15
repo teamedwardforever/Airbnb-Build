@@ -50,7 +50,7 @@ function CategoryBox({ icon: Icon, label, selected }: Props) {
       } ${selected ? "text-neutral-800" : "text-neutral-500"}`}
     >
       <Icon size={26} />
-      <p className="text-medium text-sm">{label}</p>
+      <div className="font-medium text-xs">{label}</div>
     </div>
   );
 }
